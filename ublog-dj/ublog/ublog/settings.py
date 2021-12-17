@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'ublog',
         'USER': 'UmbWill',#'mysqlsumb',
         'PASSWORD': 'u1234567', #'u123456',
-        'HOST': '127.0.0.1',
+        'HOST': 'UmbWill.mysql.pythonanywhere-services.com', #'127.0.0.1',
         'PORT': 3306,
         
         #'ENGINE': 'django.db.backends.postgresql_psycopg2',
