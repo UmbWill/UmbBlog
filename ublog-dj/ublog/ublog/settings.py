@@ -77,12 +77,19 @@ WSGI_APPLICATION = 'ublog.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'ublog',
-        'USER': 'postgresumb',
+        'USER': 'mysqlsumb',
         'PASSWORD': 'u123456',
         'HOST': '127.0.0.1',
-        'PORT': 5432,
+        'PORT': 3306,
+        
+        #'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        #'NAME': 'ublog',
+        #'USER': 'postgresumb',
+        #'PASSWORD': 'u123456',
+        #'HOST': '127.0.0.1',
+        #'PORT': 5432,
         #'OPTIONS': {
         #    'service': 'my_service',
         #    'passfile': '.my_pgpass',
