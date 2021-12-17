@@ -1,5 +1,6 @@
 asgiref==3.4.1
 Django==4.0
+mysqlclient==2.1.0
 postgres==4.0
 psycopg2-binary==2.9.2
 psycopg2-pool==1.1
