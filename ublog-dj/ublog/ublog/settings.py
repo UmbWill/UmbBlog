@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'ublog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ublog',
+        'NAME': 'UmbWill$ublog',
         'USER': 'UmbWill',#'mysqlsumb',
         'PASSWORD': 'u1234567', #'u123456',
         'HOST': 'UmbWill.mysql.pythonanywhere-services.com', #'127.0.0.1',
