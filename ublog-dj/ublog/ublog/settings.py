@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'ublog',
         'USER': 'UmbWill',#'mysqlsumb',
-        'PASSWORD': 'u1234567' #'u123456',
+        'PASSWORD': 'u1234567', #'u123456',
         'HOST': '127.0.0.1',
         'PORT': 3306,
         
