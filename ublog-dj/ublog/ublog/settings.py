@@ -90,7 +90,7 @@ DATABASES = {
         #'PORT': 3306,
         
         # ****** INTERNET ******
-        'NAME': #UmbWill$ublog
+        'NAME': 'UmbWill$ublog'
         'USER': 'UmbWill',#'mysqlsumb',
         'PASSWORD': 'u1234567', #'u123456',
         'HOST': 'UmbWill.mysql.pythonanywhere-services.com', #
