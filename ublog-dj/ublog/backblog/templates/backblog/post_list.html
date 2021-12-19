@@ -7,9 +7,12 @@
         <header>
             <h1>Ciao! This is a blog!</h1>
         </header>
-        <article>
-            <time>published: 17-12-2021</time>
-            <h2><a href="">FirstPost</a></h2>
-        </article>
+        {% for post in posts %}
+            <article>            
+                <time>published: {{post.published_date}}</time>
+                <h2><a href="">{{post.title}}</a></h2>
+                <p>{{post.text | linebreaksbr }}</p>
+            </article>
+        {% endfor %}
     </body>
 </html>
