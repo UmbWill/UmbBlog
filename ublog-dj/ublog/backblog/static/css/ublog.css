@@ -1,8 +1,41 @@
-h1 a, h2 a {
-    color: #43e1ec;
-    font-family: 'Lobster';
+.page-header{
+    
+    background-color: chocolate ;
+    margin-bottom: 50px;
+    margin-top: auto;
+    margin-left: 0px;
+    padding: 20px 20px 20px 40px;
 }
 
-body{
-    padding-left: 15px;
+.page-header h1 {
+    color: #4b49db;
+    font-family: 'Lobster';
+    text-align: center;  
+    font-size: 64px; 
 }
+
+
+.post h2 a {
+    color: #43e1ec;
+    font-family: 'Lobster';
+    font-size: 32px;
+}
+
+
+.post h2 a:link {
+    color: #bbdb49;
+}
+.post h2 a:hover {
+    color: #db4969;
+}
+.post h2 a:validate {
+    color: #b41672;
+}
+
+
+
+.date{
+    color:#828282;
+}
+
+
