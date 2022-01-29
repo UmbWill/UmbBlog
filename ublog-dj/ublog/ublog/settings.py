@@ -83,18 +83,18 @@ DATABASES = {
         #    'read_default_group':"client",
         #},
         # ****** LOCAL *******
-        #'NAME': 'ublog', #UmbWill$ublog
-        #'USER': 'UmbWill',#'mysqlsumb',
-        #'PASSWORD': 'u1234567', #'u123456',
-        #'HOST': '127.0.0.1',#'UmbWill.mysql.pythonanywhere-services.com', #
-        #'PORT': 3306,
-        
-        # ****** INTERNET ******
-        'NAME': 'UmbWill$ublog',
+        'NAME': 'ublog', #UmbWill$ublog
         'USER': 'UmbWill',#'mysqlsumb',
         'PASSWORD': 'u1234567', #'u123456',
-        'HOST': 'UmbWill.mysql.pythonanywhere-services.com', #
+        'HOST': '127.0.0.1',#'UmbWill.mysql.pythonanywhere-services.com', #
         'PORT': 3306,
+        
+        # ****** INTERNET ******
+        #'NAME': 'UmbWill$ublog',
+        #'USER': 'UmbWill',#'mysqlsumb',
+        #'PASSWORD': 'u1234567', #'u123456',
+        #'HOST': 'UmbWill.mysql.pythonanywhere-services.com', #
+       # 'PORT': 3306,
         
         #'ENGINE': 'django.db.backends.postgresql_psycopg2',
         #'NAME': 'ublog',

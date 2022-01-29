@@ -9,9 +9,20 @@
     </head>
     <body>
         <header class="page-header">
-            <h1>Ciao! This is a blog!</h1>
+            <div class='container'>
+                <div class="row justify-content-md-center">
+                    <div class="col">    
+                        <h1><a href='/'>Ciao! This is a blog!</a></h1>
+                    </div>
+                    <div class="col col-lg-2">
+                        <a href="{% url 'post_new' %}" class="new-post"> 
+                            {% include './icons/notebook.svg' %}
+                        </a>
+                    </div>
+                </div>    
+            </div>
         </header>
-        <main class="container">
+        <main class="content container">
             <div class="row">
                 <div class="col">
                     {% block content %}
